@@ -1,6 +1,22 @@
-1. 跑助教的preprocessing sample code產生datasets跟embeddings
-2. train model python file在src資料夾裡面，執行範例：python train_ext.py
+# seq2seq-summerization
+PyTorch implementation of extractive summarization, seq2seq abstractive summarization (w/ and w/o attention mechanism).
 
-plot histogram:
-import matplotlib.pyplot as plt
-plot_rel_loc(all_ext, all_n_sent, bins=20)
+### Requirements
+
+Run `bash download.sh` for downloading all the requirements data.
+
+### Extractive summarization
+
+Run `bash extractive.sh` for extractive model prediction.
+
+### seq2seq text summarization
+
+Run `bash seq2seq.sh` for seq2seq model prediction.
+
+### seq2seq text summarization with attention
+
+Run `bash attention.sh` for attention model prediction.
+
+### Summary
+
+Please refer to "report.pdf".
