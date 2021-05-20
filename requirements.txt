@@ -1,0 +1,12 @@
+torch==1.4.0
+tensorflow==2.1.0
+rouge_score==0.0.3
+pytorch-lightning==0.7.1
+pytorch-ignite==0.3.0
+scikit-learn==0.22.2
+gensim==3.8.1
+spacy==2.2.4
+nltk==3.4.5
+fasttext==0.9.1
+pandas==1.0.3
+tqdm
